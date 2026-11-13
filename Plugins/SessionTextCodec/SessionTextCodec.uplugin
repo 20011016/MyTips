@@ -1,0 +1,26 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.0",
+	"FriendlyName": "Session Text Codec",
+	"Description": "UTF-8 safe hex encoding helpers for online session settings. Works around the Steam OSS ANSI/UTF-8 mismatch that corrupts non-ASCII (Chinese/Japanese/Korean) session keys and values.",
+	"Category": "Online",
+	"CreatedBy": "",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EngineVersion": "5.7.0",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"EnabledByDefault": true,
+	"Modules": [
+		{
+			"Name": "SessionTextCodec",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
